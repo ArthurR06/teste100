@@ -46,7 +46,7 @@ function registerUser(event) {
         password: password
     };
 
-    fetch('http://localhost:8080/auth/register', {
+    fetch('https://api-controle-de-estoque-production.up.railway.app', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
